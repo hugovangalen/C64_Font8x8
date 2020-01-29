@@ -41,12 +41,14 @@ Line 50:	#include "fonts/font8x8_c64.h" /* add this line */
 Line 51:	#include "fonts/font5x7.h"
 ```
 
-3) In ACROBOTIC_SSD1306.cpp, the following line needs to be replaced, as it initialises with a 5x7 font by default:
+3) In ACROBOTIC_SSD1306.cpp, the following line needs to be replaced, as it initialises with a 5x7 font by default otherwise:
 
 ```
-Line: 199:	setFont(font5x7); /* replace this line */
-Line: 199:	setFont(font8x8_c64);
+Line 199:	setFont(font5x7); /* replace this line */
+Line 199:	setFont(font8x8_c64);
 ```
 
 Re-compile your sketch and you should see the new font.
+
+
 
