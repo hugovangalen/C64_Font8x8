@@ -1,7 +1,7 @@
 # C64_Font8x8
+8x8 C64 font for OLED libraries that contains some additional custom characters (128 to 143) that I found useful at some point. For you, perhaps, these are not so interesting. :-)
 
 <img align="right" width="240" src="https://raw.githubusercontent.com/hugovangalen/C64_Font8x8/master/img/c64_ATtiny85.jpg" title="ATtiny85 with Tiny4kOLED library" alt="ATtiny85 with Tiny4kOLED library" />
-8x8 C64 font for OLED libraries with some additional custom characters (128 to 143) that I found useful, but perhaps you notsomuch. :-)
 
 This repository contains header files for the following libraries:
 - [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED)
