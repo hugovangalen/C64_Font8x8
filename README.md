@@ -11,25 +11,26 @@ I am sure that the files can be easily adapted to the OLED library that you are 
 ## Usage
 
 ### Tiny4kOLED
-Copy the relevant header file into your Arduino project directory, and add the following lines to your main sketch:
+1) Copy the relevant header file into your Arduino project directory.
 
+2) Call `setFont()` with the new available definition, like so:
 ```
 #include <Tiny4kOLED.h>
-#include "font8x8_c64.h"  /* includes the font definition */
+#include "font8x8_c64.h"        /* includes the font definition */
 
 void setup()
 {
-	oled.begin();
-    oled.setFont(FONT8X8_C64); /* apply the font definition */
+    oled.begin();
+    oled.setFont(FONT8X8_C64);  /* apply the font definition */
 }
-
 ```
-
 Re-compile your sketch and you should see the new font!
 
 
 ### ACROBOTIC_SSD1306 
-This is what I originally created the font for a few years ago. Using it with this library is not so straightforward as with the Tiny4kOLED one. 
+(This is what I originally created the font for a few years ago. I am not so sure this library is still maintained.)
+
+Using it with this library is not so straightforward as with the Tiny4kOLED one. 
 
 1) The relevant header file needs to be copied inside the ACROBOTIC_SSD1306/fonts/ directory.
 
