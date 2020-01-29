@@ -56,9 +56,9 @@ Re-compile your sketch and you should see the new font.
 
 
 ## License
-Feel free to use these header files however you wish. I never personally created the C64 font -- I just grabbed them from the ROMs and converted them to the format the OLEDs understand.
+Feel free to use these header files however you wish. I never personally created the C64 font -- I just grabbed the character data from the ROMs and converted it to the format the OLEDs understand.
 
-So although I created these files, it feels wrong to in any way restrict you from using them. If you do use them, creding me somewhere would be nice, but is entirely optional.
+So although I created these files, it just doesn't feel right to in any way restrict you from using them. If you do use them, crediting me somewhere would be nice, but is entirely optional.
 
 Enjoy!
 
