@@ -6,6 +6,7 @@ This repository contains header files for the following libraries:
 - [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED)
 - [ACROBOTIC_SSD1306](https://github.com/vivchawda/arduino/tree/master/libraries/ACROBOTIC_SSD1306)
 
+I am sure that the files can be easily adapted to the OLED library that you are using. If you succeeded, drop me a line so I can add it to this repository.
 
 ## Usage
 
