@@ -13,7 +13,7 @@ I am sure that the files can be easily adapted to the OLED library that you are 
 ### Tiny4kOLED
 1) Copy the relevant header file into your Arduino project directory.
 
-2) Call `setFont()` with the new available definition, like so:
+2) Include this new header file in your main sketch, and call `setFont()` with the new available definition, like so:
 ```
 #include <Tiny4kOLED.h>
 #include "font8x8_c64.h"        /* includes the font definition */
